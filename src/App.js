@@ -1,9 +1,14 @@
-
+import Footer from "./Components/Footer/Footer";
+import NavBar from "./Components/NavBar/NavBar";
+import ItemListContainer from "./Components/ItemListContainer/ItemListContainer";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hola Mundo</h1>
+    <div>
+      <NavBar />
+      <ItemListContainer />
+      <Footer />
+    
     </div>
   );
 }
