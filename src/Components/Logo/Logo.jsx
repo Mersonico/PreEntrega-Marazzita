@@ -4,7 +4,7 @@
 const Logo = () => {
   return (
     <div>
-      <h4>Logo</h4>
+      <h1>ElectroMarkets</h1>
     </div>
   )
 }
